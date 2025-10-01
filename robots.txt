@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow unnecessary directories (if exist)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap reference
+Sitemap: https://pratikraktate.netlify.app/sitemap.xml
+
+# Crawl-delay for slower bots (optional, helps server load)
+User-agent: Bingbot
+Crawl-delay: 5
